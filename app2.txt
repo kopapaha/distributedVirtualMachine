@@ -1,0 +1,9 @@
+--Init--
+	led	1
+	tmr	3
+	ret
+--Init--
+--Timer--
+	led	0
+	ret
+--Timer--

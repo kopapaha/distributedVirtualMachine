@@ -1,0 +1,10 @@
+#ifndef BLINKTORADIO_H
+#define BLINKTORADIO_H
+
+//#define SERIAL
+
+
+enum { AM_BLINKTORADIO = 6, retrn = 0x00, set = 0x10, cpy = 0x20, add = 0x30, sub = 0x40, inc = 0x50, dec = 0x60,
+			max = 0x70, min = 0x80, bgz = 0x90, bez = 0xA0, bra = 0xB0, led = 0xC0, rdb = 0xD0, tmr = 0xE0};
+
+#endif

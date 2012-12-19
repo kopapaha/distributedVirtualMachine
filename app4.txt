@@ -1,0 +1,15 @@
+--Init--
+	tmr	5
+	ret
+--Init--
+--Timer--
+	rdb	r1
+	set	r2	50
+	sub	r2	r1
+	bgz	r2	L1
+	led	0
+	bra	L2
+L1	led	1
+L2	tmr	5
+	ret
+--Timer--

@@ -1,0 +1,17 @@
+--Init--
+	led	1
+	set	r1	1
+	tmr	3
+	ret
+--Init--
+--Timer--
+	bez	r1	L1 
+	led	0
+	set	r1	0
+	tmr	7
+	ret
+L1	led	1
+	set	r1	1
+	tmr	3
+	ret
+--Timer--

@@ -1,0 +1,15 @@
+Virtual Machine implementation
+
+wsn middleware features:
+1. supports up to three concurrent applications
+2. abstraction of individual memory space and execution for each apllication
+3. round-robin application scheduling 
+4. instruction set (support of basic instructions): ADD SUB INC DEC SET RET BGZ BEZ BRA LED RDB TMR
+5. caching sensor reads (reduce energy consumption)
+
+future extentions:
+1. code migration over the distributed nodes
+2. support for application-level result proccessing (msg handler execution)
+3. transparent aggregation and dissemination of results to source node
+
+

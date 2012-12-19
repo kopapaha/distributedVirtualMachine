@@ -1,0 +1,4 @@
+--Init--
+	led	1
+	ret
+--Init--
